@@ -1,0 +1,44 @@
+.Parent{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(240, 215, 183);
+}
+.formBlock{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    padding: 1em 2em;
+    background-color: brown;
+    width: fit-content;
+    text-align: center;
+}
+input{
+    padding: 1em;
+    width: 15em;
+    margin: 5px;
+    border-radius: 6px;
+}
+.formBlock button {
+    padding: 6px 12px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: #fff;
+}
+.tableBlock{
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding: 6px 10px;
+    background-color: crimson;
+    border: 1px solid;
+}
+th{
+    background-color: blueviolet;
+    color: #fff;
+     padding: 6px 10px;
+}
