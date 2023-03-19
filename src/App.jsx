@@ -1,10 +1,10 @@
 import React from 'react'
 import "./App.css"
-import GrandP from './components/hoc/GrandP';
+import CustomHook from './components/customhook/CustomHook';
 
 const App = () => {
   return (
-    <div><GrandP/></div>
+    <div><CustomHook/></div>
   )
 }
 
