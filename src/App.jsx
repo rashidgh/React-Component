@@ -1,10 +1,10 @@
 import React from 'react'
 import "./App.css"
-import CustomHook from './components/customhook/CustomHook';
+import Parent from './components/ChildToP/Parent';
 
 const App = () => {
   return (
-    <div><CustomHook/></div>
+    <div><Parent/></div>
   )
 }
 

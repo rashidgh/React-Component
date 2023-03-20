@@ -82,7 +82,8 @@
 // !new map():
 
 // let obj ={ename:"Rashid",10:"hello"};
-// console.log(obj);
+// let a = Object.entries(obj);
+// console.log(a[0]);
 
 // let arr = [
 //   { id: 1, name: "Alice" },
@@ -139,6 +140,44 @@
 // console.log(emp);
 // console.log(emp);
 
-
 // let obj = { ename: "rashid" };
+
+// ! new Map()
+// let x = new Map([
+//   ["name", "Rashid"],
+//   ["id", 123],
+// ]);
+// console.log(x);//Map(2) {'name' => 'Rashid', 'id' => 123}
+
+// x.set("city", "Pune");
+// console.log(x)//Map(3) {'name' => 'Rashid', 'id' => 123, 'city' => 'Pune'}
+
+// console.log(x.get("city"));//Pune
+
+// x.delete("city");
+// console.log(x);//Map(2) {'name' => 'Rashid', 'id' => 123}
+
+// x.clear()
+// console.log(x);//Map(0) {size: 0}
+
+
+// ! new Set()
+
+// let emp = {
+//   eName: "Rashid",
+//   id: 13456,
+// };
+// console.log(new Map(Object.entries(emp)));
+
+// let y = new Set([10, 20, 20, 30, 30, 40, 50, 50, 60]);
+// console.log(y)
+
+// y.add("Rashid");
+// console.log(y);
+
+// y.clear();
+// console.log(y);
+// y.delete(10);
+// console.log(y)
+
 
